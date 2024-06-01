@@ -1,0 +1,73 @@
+.title {
+    background-color: rgb(241, 157, 66);
+    border-style: double;
+    background-image: -o-linear-gradient();
+    
+    
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 10;
+    padding: 5;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    
+    
+}
+
+.book {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f5f0e5;
+}
+
+.cover {
+    flex: 0 0 30%; /* Setting a fixed width for the cover */
+    padding: 20px;
+    background-color: rgb(228, 173, 63);
+    border-style: inset
+    
+    
+}
+
+.cover img {
+    max-width: 100%;
+    height: auto;
+}
+
+.details {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    color: #532843;
+    color: #333333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e49e2d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ced0c7;
+}

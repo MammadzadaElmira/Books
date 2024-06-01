@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../static/imaginary/style.css">
+
+</head>
+<body>
+
+    <h1 class="title">My Library</h1>
+    <div class="container">
+        {% for book in BOOKS %}
+        <div class="book">
+          <div class="cover">
+            <img src="https://png.pngtree.com/thumb_back/fw800/background/20230904/pngtree-beautiful-book-of-journal-notebook-pens-and-flower-petals-image_13184937.jpg">
+          </div>
+          <div class="details">
+            <h2>{{book.title}}</h2>
+            <p>{{book.author}}</p>
+            <p>{{book.published_at}}</p>
+            <p>{{book.language}}</p>
+            <p>{{book.price}} $</p>
+            <p>{{book.page_count}} Pages</p>
+            <p>{{book.rating}} ⭐</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+</body>
+</html>
